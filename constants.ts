@@ -7,7 +7,7 @@
 export const METADATA = {
   title: "Portfolio | Andrii Khorishko",
   description:
-    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
+    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience and server using modern frontend and backend architecture.",
   siteUrl: "https://ayushsingh.net/",
 };
 
@@ -200,7 +200,8 @@ export const SKILLS = {
     "css",
   ],
   userInterface: ["figma", "sketch", "illustrator", "photoshop"],
-  backend: ["laravel", "nest", "golang", "python", ".net framework"],
+  backend: ["laravel", "nestjs", "golang", "python", "netframework"],
+  database: ["mongodb", "mysql", "postgresql"],
 };
 
 export enum Branch {
