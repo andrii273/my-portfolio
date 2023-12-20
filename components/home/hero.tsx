@@ -82,8 +82,8 @@ const HeroSection = React.memo(() => {
   const renderHeroContent = (): React.ReactNode => (
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-4 mb-2">
-        <h2 className="text-4xl seq">Hello 👋🏻</h2>
-        <h1 className="text-3xl seq">I am Andrii Khorishko</h1>
+        <h2 className="text-6xl seq">Welcome! 👋🏻</h2>
+        <h1 className="text-3xl seq mt-4">I am Andrii Khorishko</h1>
       </div>
       <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
@@ -97,7 +97,7 @@ const HeroSection = React.memo(() => {
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Ayush_Resume.pdf"
+          href="/Andrii_Khorishko.pdf"
         ></Button>
         <Button
           classes="ml-3"
