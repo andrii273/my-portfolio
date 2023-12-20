@@ -30,7 +30,7 @@ const Footer = () => {
       </h1>
       <div className="flex mt-8">{renderSocialIcons()}</div>
       <div className="flex mt-8">
-        {/* <Button
+        <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
           name="Resume"
@@ -38,16 +38,15 @@ const Footer = () => {
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Ayush_Resume.pdf"
-        ></Button> */}
+          href="/Andrii_Khorishko.pdf"
+        ></Button>
         <Button
           classes="ml-3"
           type={ButtonTypes.WHITE}
           name="Let's Talk"
           href={SOCIAL_LINKS.topmate}
           otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
+            rel: "noreferrer"
           }}
         ></Button>
       </div>

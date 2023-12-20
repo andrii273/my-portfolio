@@ -105,8 +105,7 @@ const HeroSection = React.memo(() => {
           name="Let's Talk"
           href={SOCIAL_LINKS.topmate}
           otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
+            rel: "noreferrer"
           }}
         ></Button>
       </div>
