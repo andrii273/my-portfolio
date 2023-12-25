@@ -85,12 +85,21 @@ export const PROJECTS: IProject[] = [
     tech: ["figma"],
   },
   {
+    name: "SEO Website",
+    image: "/projects/pr9.png",
+    blurImage: "/projects/blur/orchestrator-blur.jpg",
+    description: "Built a perfect SEO website",
+    gradient: ["#153BB9", "#0E2C8B"],
+    url: "https://nova-speaker.webflow.io/",
+    tech: ["react"],
+  },
+  {
     name: "Publishing React Theme as a Team Leader",
     image: "/projects/pr2.png",
     blurImage: "/projects/blur/myokr-blur.jpg",
     description: "Led a Team to publish a React Theme, worked as a backend developer.",
     gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://www.huminos.com/",
+    url: "d-themes.com/react/riode",
     tech: ["react", "next"],
   },
   {
