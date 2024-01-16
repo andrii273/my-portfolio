@@ -239,7 +239,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "FullStack Developer at Diffco, US IT Company",
+    title: "FullStack Developer at itCraft, US IT Company",
     size: ItemSize.SMALL,
     subtitle:
       "Contributed to Server driven Backend for powering experiences @ Flipkart Wholesale 😎",
@@ -260,12 +260,12 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Developer at Diffco, US IT Company",
+    title: "Frontend Developer at itCraft, US IT Company",
     size: ItemSize.SMALL,
     subtitle:
       "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-freelance.jpg",
+    image: "/timeline/flipkart.svg",
+    slideImage: "/timeline/flipkart.gif",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },
