@@ -233,7 +233,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2017",
+    title: "2015",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
