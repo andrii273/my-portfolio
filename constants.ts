@@ -238,6 +238,20 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
+  {
+    type: NodeTypes.DIVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Frontend Developer at itCraft, US IT Company",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Built solutions for employee engagement, productivity and performance 🎯",
+    image: "/timeline/flipkart.svg",
+    slideImage: "/timeline/flipkart.gif",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
 ];
 
 export type TimelineNodeV2 = CheckpointNode | BranchNode;
