@@ -90,16 +90,6 @@ const HeroSection = React.memo(() => {
       </p>
       <div className="flex seq">
         <Button
-          classes="mr-3"
-          type={ButtonTypes.OUTLINE}
-          name="Resume"
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-          href="/Marcin.pdf"
-        ></Button>
-        <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
