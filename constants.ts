@@ -5,7 +5,7 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export const METADATA = {
-  title: "Portfolio | Andrii Khorishko",
+  title: "Portfolio | Marcin Leszek",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience and server using modern frontend and backend architecture.",
   siteUrl: "https://ayushsingh.net/",
