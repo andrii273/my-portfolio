@@ -226,8 +226,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Contributed to Server driven Backend for powering experiences @ Flipkart Wholesale 😎",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
+    image: "/timeline/flipkarts.png",
+    slideImage: "/timeline/flipkart.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -247,8 +247,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
+    image: "/timeline/flipkarts.png",
+    slideImage: "/timeline/flipkart.png",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },
