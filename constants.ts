@@ -194,27 +194,10 @@ export enum ItemSize {
 }
 
 export const TIMELINE: Array<TimelineNodeV2> = [
+
   {
     type: NodeTypes.CHECKPOINT,
     title: "2023",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Fullstack Web and Mobile Developer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/reactindia.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2022",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -232,7 +215,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2019",
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -250,24 +233,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2016",
+    title: "2017",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Frontend Developer at itCraft, US IT Company",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
   },
 ];
 
